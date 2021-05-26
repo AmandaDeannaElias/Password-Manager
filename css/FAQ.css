@@ -19,11 +19,20 @@
   justify-content: center;
 }
 
+.faqquestions{
+  font-size: 35px;
+  font-weight: 500;
+  list-style: none;
+}
+
 .faqanswers{
   font-size: 22px;
   list-style: none;
   width: auto;
   font-weight: lighter;
+  margin-top: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .backLink{

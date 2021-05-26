@@ -8,10 +8,10 @@ use PDOException;
     class DatabaseTwo {
 
         // These variables must be set to the specific database connection information.
-        private static $dbName = "skdssite_Codesses";
-        private static $host = "158.69.17.240:3306";
-        private static $userName = "skdssite_test";
-        private static $password = "tU8U4jB3Cz7yVRK";
+        private static $dbName = "tavl0054_pmWafadb";
+        private static $host = "142.4.196.160:3306";
+        private static $userName = "tavl0054_Amanda";
+        private static $password = "dQ,9~eVN6dC.";
 
         // Private variables to interact with the database.
         private static $dataSourceName;
