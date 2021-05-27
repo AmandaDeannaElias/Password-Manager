@@ -43,7 +43,7 @@ if (isset($_POST['updpassword'])) {
   <!--global head.php-->
   <?php include "php/head.php" ?>
   <title>Pass**** Manager password</title>
-  <link rel="stylesheet" href="css/password.css">
+  <link rel="stylesheet" href="css/passwords.css">
   <link rel="stylesheet" href="css/style.css">
   <script src="./js/script.js" async defer></script>
 </head>
@@ -73,7 +73,9 @@ if (isset($_POST['updpassword'])) {
             <div class="inputDiv">
               <input type="submit" name="updpassword" value="Submit" />
             </div>
+            <div id="backtoPasswords">
             <a href="./listPasswords.php" class="backLink">Back to Passwords</a>
+            </div>
           </form>
         </div>
       </div>

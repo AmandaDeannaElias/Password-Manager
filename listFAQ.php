@@ -18,6 +18,7 @@ $faq =  $f->getFAQ(DatabaseTwo::getDb());
     <?php include "php/head.php" ?>
     <title>Pass**** Manager FAQ</title>
     <link rel="stylesheet" href="css/FAQ.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="./js/script.js" async defer></script>
 </head>
 

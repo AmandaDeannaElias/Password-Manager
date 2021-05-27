@@ -22,13 +22,14 @@ function send_email($to_address, $to_name, $from_address, $from_name,
     $mail = new PHPMailer();
     // **** You must change the following to match your
     // **** SMTP server and account information.  
+    SMTP::DEBUG_SERVER;
     $mail->isSMTP();                             // Set mailer to use SMTP
     $mail->Host = 'smtp.gmail.com';              // Set SMTP server
     $mail->SMTPSecure = 'tls';                   // Set encryption type
     $mail->Port = 587;                           // Set TCP port
     $mail->SMTPAuth = true;                      // Enable SMTP authentication
     $mail->Username = 'helloworld1245603@gmail.com'; // Set SMTP username
-    $mail->Password = 'mqrwetbpxmgsuklu';           // Set SMTP password
+    $mail->Password = 'aanknhautylxuosb';           // Set SMTP password
     $mail->Mailer   = "smtp";
     
     // Set From address, To address, subject, and body

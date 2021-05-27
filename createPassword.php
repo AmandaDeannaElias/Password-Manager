@@ -15,7 +15,7 @@ if (!$session->hasUser()) {
 
 use Codesses\php\Models\{DatabaseTwo, Password};
 
-require "./php/Models/CrudPassword.php";
+require "./php/Models/Crudpassword.php";
 require "./php/Models/DatabaseTwo.php";
 
 $p = new Password();
@@ -82,7 +82,7 @@ if (isset($_POST['addPassword'])) {
               <input type="submit" name="addPassword" value="Submit" />
             </div>
             <div id="backtoPasswords">
-              <a href="./listPasswords.php" class="backLink">Back to FAQ</a>
+              <a href="./listPasswords.php" class="backLink">Back to Passwords</a>
             </div>
           </form>
         </div>

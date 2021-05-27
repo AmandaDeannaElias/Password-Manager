@@ -32,7 +32,7 @@ $faq =  $f->getFAQ(DatabaseTwo::getDb());
                 <ul id="faqlist">
                     <?php foreach ($faq as $qa) { ?>
                         <div class="questionanswersection">
-                            <div class="cBox">
+                            <div>
                                 <li class="faqquestions"><?= $qa['question'] ?></li>
                             </div>
                             <li class="faqanswers"><?= $qa['answer'] ?></li>

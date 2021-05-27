@@ -18,7 +18,7 @@ if( $action == RH::$actionLogOut ) {
 
 // If the user is already logged in, load the account page.
 if( $session->hasUser() ) {
-  header( "Location: passwords.php" );
+  header( "Location: listPasswords.php" );
   exit;
 }
 
@@ -74,7 +74,7 @@ if( $isPost ) {
       // - End of Elle
 
       if( $session->getUserId() == $user->user_id ) {
-        header( "Location: listPasswords.php?" );
+        header( "Location: listPasswords.php" );
         exit;
       }
     }

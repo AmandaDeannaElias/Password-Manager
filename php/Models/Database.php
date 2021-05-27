@@ -10,7 +10,7 @@ use PDOException;
 
         // These variables must be set to the specific database connection information.
         private static $dbName = "tavl0054_pmWafadb";
-        private static $host = "142.4.196.160:3306";
+        private static $host = "142.4.196.160";
         private static $userName = "tavl0054_Amanda";
         private static $password = "dQ,9~eVN6dC.";
 
@@ -34,7 +34,7 @@ use PDOException;
                 self::$dataPdo = new \PDO( self::$dataSourceName, self::$userName, self::$password );
         
                 } catch( PDOException $e ) {
-                    echo $e->getMessage()();
+                    echo $e->getMessage();
                     exit();
                 }
 
