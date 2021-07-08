@@ -21,7 +21,7 @@
     An app to help you manage your online passwords. In addition to managing your own passwords, this app allows you to share passwords with another user. 
     <br />
     <br />
-    <a href="https://github.com/github_username/Group7_Codesses_PasswordManager">View Demo</a>
+    <a href="http://passwordmanager.amandaelias.ca/">View Demo</a>
     ·
     <a href="https://github.com/github_username/Group7_Codesses_PasswordManager/issues">Report Bug</a>
     ·
